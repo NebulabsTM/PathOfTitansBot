@@ -1,0 +1,20 @@
+{
+  "name": "mesozoic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daan Hansen",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^8.0.1",
+    "body-parser": "^1.20.1",
+    "discord.js": "^14.7.1",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "node-schedule": "^2.1.1",
+    "rcon": "^1.1.0"
+  }
+}
