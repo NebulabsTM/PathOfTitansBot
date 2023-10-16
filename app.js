@@ -4,7 +4,7 @@ const bodyParser = require("body-parser")
 
 const { REST } = require('@discordjs/rest');
 const { Client, Collection, GatewayIntentBits, Routes, EmbedBuilder, GuildEmoji } = require('discord.js');
-const token = `ODU2OTIzNzYxMDEzOTQ4NDE3.GgHe20.mzJ-vdkwKQTXGXjPWoqsRlfy_8Piswk8SNokbU`;
+const token = ``;
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
 const db = require('better-sqlite3')('./sys/db/Mesozoic.db');
